@@ -17,7 +17,6 @@ dependencies = [
 ]
 
 [tool.setuptools]
-# This tells the builder to ignore the server and templates folders
 packages = []
 py-modules = ["env", "models", "graders", "inference"]
 
