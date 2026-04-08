@@ -1,3 +1,12 @@
+---
+title: SQLite Rescue Environment
+emoji: 🗄️
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
+
 # SQLite Rescue Environment
 
 ## Description
