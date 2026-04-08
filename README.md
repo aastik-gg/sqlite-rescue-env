@@ -36,3 +36,19 @@ This project uses modern Python packaging via `pyproject.toml`, eliminating the 
 ```bash
 pip install .
 # Or, if you are using uv: uv pip install .
+```
+
+**2. Generate the starting databases:**
+```bash
+python generate_templates.py
+```
+
+**3. Run the baseline agent (Requires HF_TOKEN):**
+```bash
+python inference.py
+```
+
+**4. Run the API Server locally (Optional):**
+```bash
+python app.py
+```
