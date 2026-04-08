@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-rescue-env"
+version = "1.0.0"
+description = "A data engineering environment where an agent must rescue a messy SQLite database."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "openenv-core>=0.1.0",
+    "pydantic>=2.0.0",
+    "openai>=1.0.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0"
+]
+
+[project.scripts]
+server = "server.app:main"
